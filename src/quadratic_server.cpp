@@ -1,5 +1,5 @@
 #include "ros/ros.h"
-#include "/home/valentina/catkin_ws/src/quadratic_solver/include/quadratic.h"
+#include "../include/quadratic.h"
 #include <cmath>
 
 bool solve(quadratic_solver::quadratic::Request  &req,
